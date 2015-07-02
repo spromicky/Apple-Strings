@@ -1,0 +1,15 @@
+{ "name": "Apple Strings",
+  "scopeName": "source.apple_strings",
+  "fileTypes": ["strings"],
+  "patterns": [
+    {
+        "match": "^\\s*\"(.+)\"\\s*=\\s*(\".+\").*$",
+        "name": "line.string-pair",
+        "captures": {
+            "1": {"name": "constant.numeric.key.apple_strings"},
+            "2": {"name": "string.value.apple_strings"}}
+        }
+    }
+  ],
+  "uuid": "84652981-127a-4143-b06a-e705d0cc5019"
+}
